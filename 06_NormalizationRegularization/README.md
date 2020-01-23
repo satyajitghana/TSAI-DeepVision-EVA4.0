@@ -15,6 +15,14 @@ Regularization Values
 l1_lambda = 5e-4
 l2_lambda = 5e-3
 ```
+\
+L1 Regularization
+
+![l1_reg.png](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/l1_reg.png?raw=true)
+
+L2 Regularization
+
+![l2_reg.png](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/l2_reg.png?raw=true)
 
 # Results
 
