@@ -30,6 +30,10 @@
         3.  You can use anything from above you want.
         4.  Less than 20 Epochs
         5.  No fully connected layer
+
+Link to GitHub ipynb: https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/04_ArchitectureBasics/ArchitectureBasics.ipynb
+Link to Solution in Colab: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/04_ArchitectureBasics/ArchitectureBasics.ipynb
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjA5Mzg0NTc2MywtMTgxNTEzNTg0MSw3Mz
 A5OTgxMTZdfQ==
