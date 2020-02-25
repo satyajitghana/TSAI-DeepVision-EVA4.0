@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="normalization--regularization">Normalization &amp; Regularization</h1>
+<p>Code for the Experiments</p>
+<p><code>google-colab link</code>: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/06_NormalizationRegularization_Modularized_FINAL.ipynb">06_NormalizationRegularization_Modularized_FINAL</a></p>
+<p><code>github link</code>: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/06_NormalizationRegularization_Modularized_FINAL.ipynb">06_NormalizationRegularization_Modularized_FINAL.ipynb</a></p>
+<blockquote>
+<p>Dataset: MNIST Digits<br>
+Model: CNN - 9960 params<br>
+Epochs: 40</p>
+</blockquote>
+<p>Regularization Values</p>
+<pre><code>l1_lambda = 5e-4
+l2_lambda = 5e-3
+</code></pre>
+<h1 id="results">Results</h1>
+<h2 id="no-l1-no-l2">1. No L1 No L2</h2>
+<blockquote>
+<p><code>Highest Accuracy: 99.47</code></p>
+</blockquote>
+<h3 id="metrics">Metrics</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/nol1_nol2_metrics.png?raw=true" alt="nol1_nol2_metrics.png"></p>
+<h3 id="misclassifications">Misclassifications</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/nol1_nol2_misclassifications.png?raw=true" alt="nol1_nol2_misclassifications.png"></p>
+<h2 id="l1">2. L1</h2>
+<blockquote>
+<p><code>Highest Accuracy: 99.44</code></p>
+</blockquote>
+<h3 id="metrics-1">Metrics</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/l1_metrics.png?raw=true" alt="l1_metrics.png"></p>
+<h3 id="misclassifications-1">Misclassifications</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/l1_misclassifications.png?raw=true" alt="l1_misclassifications.png"></p>
+<h2 id="l2">3. L2</h2>
+<blockquote>
+<p><code>Highest Accuracy: 99.52</code></p>
+</blockquote>
+<h3 id="metrics-2">Metrics</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/l2_metrics.png?raw=true" alt="l2_metrics.png"></p>
+<h3 id="misclassifications-2">Misclassifications</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/l2_misclassifications.png?raw=true" alt="l2_misclassifications.png"></p>
+<h2 id="l1--l2">4. L1 &amp; L2</h2>
+<blockquote>
+<p><code>Highest Accuracy: 98.76</code></p>
+</blockquote>
+<h3 id="metrics-3">Metrics</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/l1_l2_metrics.png?raw=true" alt="l1_l2_metrics.png"></p>
+<h3 id="misclassifications-3">Misclassifications</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/l1_l2_misclassifications.png?raw=true" alt="l1_l2_misclassifications.png"></p>
+<h1 id="comparison">Comparison</h1>
+<h2 id="validation-accuracy">Validation Accuracy</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/val_acc_compare2.png?raw=true" alt="val_acc_compare2.png"></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/val_acc_compare.png?raw=true" alt="val_acc_compare.png"></p>
+<h2 id="validation-loss">Validation Loss</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/val_loss_compare2.png?raw=true" alt="val_loss_compare2.png"></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/06_NormalizationRegularization/plots/val_loss_compare.png?raw=true" alt="val_loss_compare.png"></p>
+</div>
+</body>
+
+</html>
