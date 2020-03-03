@@ -38,12 +38,15 @@ class Trainer(BaseTrainer):
 
             self.optimizer.step()
 
-            pred = output.argmax(dim=1, keepdim=True)
-            correct += pred.eq(target.view_as(pred)).sum().item()
-            processed += len(data)
+            # pred = output.argmax(dim=1, keepdim=True)
+            # correct += pred.eq(target.view_as(pred)).sum().item()
+            # processed += len(data)
+
+            # pbar.set_description(
+            #     desc=f'epoch={epoch} loss={loss.item():.10f} batch_id={batch_idx} accuracy={100*correct/processed:0.3f}')
 
             pbar.set_description(
-                desc=f'epoch={epoch} loss={loss.item():.10f} batch_id={batch_idx} accuracy={100*correct/processed:0.3f}')
+                desc=f'epoch={epoch} loss={loss.item():.10f} batch_id={batch_idx}')
 
             if isinstance(self.lr_scheduler, torch.optim.lr_scheduler.OneCycleLR):
                 self.lr_scheduler.step()
@@ -58,7 +61,8 @@ class Trainer(BaseTrainer):
 
         self.model.eval()  # set the model in evaluation mode
 
-        test_loss = 0
+        # test_loss = 0
+        total = 0
         correct = 0
         with torch.no_grad():
             for data, target in self.test_loader:
@@ -66,12 +70,17 @@ class Trainer(BaseTrainer):
 
                 output = self.model(data)
 
-                test_loss += self.loss(output, target, reduction='sum').item()
-                pred = output.argmax(dim=1, keepdim=True)
-                correct += pred.eq(target.view_as(pred)).sum().item()
+                _, predicted = torch.max(output.data, 1)
+                total += target.size(0)
+                correct += (predicted == labels).sum().item()
 
-        test_loss /= len(self.test_loader.dataset)
+        #         test_loss += self.loss(output, target, reduction='sum').item()
+        #         pred = output.argmax(dim=1, keepdim=True)
+        #         correct += pred.eq(target.view_as(pred)).sum().item()
 
-        print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
-            test_loss, correct, len(self.test_loader.dataset),
-            100. * correct / len(self.test_loader.dataset)))
+        # test_loss /= len(self.test_loader.dataset)
+
+        # print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
+        #     test_loss, correct, len(self.test_loader.dataset),
+        #     100. * correct / len(self.test_loader.dataset)))
+        print(f'Test set: Accuracy: {100 * correct / total}')

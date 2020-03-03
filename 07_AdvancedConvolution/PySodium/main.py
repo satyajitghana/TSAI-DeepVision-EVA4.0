@@ -32,12 +32,15 @@ def train(cfg: Dict) -> None:
 
     param_groups = setup_param_groups(model, cfg['optimizer'])
     optimizer = get_instance(module_optimizer, 'optimizer', cfg, param_groups)
-    lr_scheduler = get_instance(
-        module_scheduler, 'lr_scheduler', cfg, optimizer)
+    # lr_scheduler = get_instance(
+    #     module_scheduler, 'lr_scheduler', cfg, optimizer)
 
     transforms = get_instance(module_aug, 'augmentation', cfg)
     train_loader = get_instance(module_data, 'data_loader', cfg, transforms)
     test_loader = train_loader.test_split()
+
+    lr_scheduler = torch.optim.lr_scheduler.OneCycleLR(
+        optimizer, max_lr=0.05, steps_per_epoch=len(train_loader), epochs=cfg['training']['epochs'])
 
     logger.info('Getting loss function handle')
     loss = getattr(module_loss, cfg['loss'])
