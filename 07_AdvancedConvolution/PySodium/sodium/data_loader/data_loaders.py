@@ -45,7 +45,7 @@ class CIFAR10DataLoader(BaseDataLoader):
             transform=transforms.build_transforms(train=True)
         )
 
-        self.test_loader = datasets.MNIST(
+        self.test_loader = datasets.CIFAR10(
             self.data_dir,
             train=False,
             download=True,
