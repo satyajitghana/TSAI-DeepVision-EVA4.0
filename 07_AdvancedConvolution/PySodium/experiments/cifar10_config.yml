@@ -19,7 +19,7 @@ data_loader:
         nworkers: 4
         shuffle: True
 
-loss: cross_entropy_loss
+loss: nll_loss
 
 # lr_scheduler:
 #     type: OneCycleLR

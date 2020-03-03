@@ -72,7 +72,7 @@ class Trainer(BaseTrainer):
 
                 _, predicted = torch.max(output.data, 1)
                 total += target.size(0)
-                correct += (predicted == labels).sum().item()
+                correct += (predicted == target).sum().item()
 
         #         test_loss += self.loss(output, target, reduction='sum').item()
         #         pred = output.argmax(dim=1, keepdim=True)
