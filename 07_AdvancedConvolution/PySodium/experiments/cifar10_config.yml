@@ -30,7 +30,7 @@ loss: cross_entropy_loss
 optimizer:
     type: SGD
     args:
-        max_lr: 0.008
+        lr: 0.008
         momentum: 0.95
 
 training:
