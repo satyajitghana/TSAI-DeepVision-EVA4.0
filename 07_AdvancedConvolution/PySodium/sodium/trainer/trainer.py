@@ -45,9 +45,12 @@ class Trainer(BaseTrainer):
             pbar.set_description(
                 desc=f'epoch={epoch} loss={loss.item():.10f} batch_id={batch_idx} accuracy={100*correct/processed:0.3f}')
 
-            # check if there's a lr scheduler
-            if self.lr_scheduler is not None:
+            if isinstance(self.lr_scheduler, torch.optim.lr_scheduler.OneCycleLR):
                 self.lr_scheduler.step()
+
+        # check if there's a lr scheduler
+        if (self.lr_scheduler is not None) and not isinstance(self.lr_scheduler, torch.optim.lr_scheduler.OneCycleLR):
+            self.lr_scheduler.step()
 
         self._test_epoch(epoch)  # test this epoch
 

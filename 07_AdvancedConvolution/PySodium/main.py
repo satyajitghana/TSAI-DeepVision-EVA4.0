@@ -44,7 +44,7 @@ def train(cfg: Dict) -> None:
 
     logger.info('Initializing trainer')
     trainer = Trainer(model, loss, optimizer, cfg, device,
-                      train_loader, test_loader, lr_scheduler)
+                      train_loader, test_loader, lr_scheduler=lr_scheduler)
 
     trainer.train()
 

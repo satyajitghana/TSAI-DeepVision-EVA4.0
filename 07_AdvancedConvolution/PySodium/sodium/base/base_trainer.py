@@ -23,8 +23,9 @@ class BaseTrainer:
 
     def train(self):
         logger.info('Starting training ...')
-        for epoch in range(1, self.epochs):
-            print(f'EPOCH: {epoch}')
+        logger.info(f'Training the model for {self.epochs} epochs')
+        for epoch in range(1, self.epochs+1):
+            print(f'Training Epoch: {epoch}')
 
             self._train_epoch(epoch)
 
