@@ -13,3 +13,12 @@ Link to collab   : https://colab.research.google.com/github/satyajitghana/TSAI-D
 
 PySodium Library : https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/tree/master/07_AdvancedConvolution/PySodium
 
+# Lessons Learnt
+
+1. I need to practice more on network architecture, i have no clue why the network works, probably because backrop saves me, and i just added a huge number of parameters, the network was forced to learn.
+
+2. Kudos to Backprop for saving me
+
+3. Writing Python libraries takes time, invest more time in writing good and intuitive library
+
+4. Write good documentation for the library
