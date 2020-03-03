@@ -8,10 +8,11 @@
 6. use GAP (compulsory):- add FC after GAP to target #of classes (optional)
 7. achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1M. 
 
-Link to notebook : https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/07_AdvancedConvolution/AdvancedConvolution.ipynb
-Link to collab   : https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/07_AdvancedConvolution/AdvancedConvolution.ipynb
+> Link to notebook : https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/07_AdvancedConvolution/AdvancedConvolution.ipynb \
 
-PySodium Library : https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/tree/master/07_AdvancedConvolution/PySodium
+> Link to google-colab   : https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/07_AdvancedConvolution/AdvancedConvolution.ipynb
+
+> PySodium Library : https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/tree/master/07_AdvancedConvolution/PySodium
 
 # Lessons Learnt
 
