@@ -25,6 +25,10 @@ Train Accuracy (Best) : 95.63
 Test Accuracy (Best) : 90.84
 ```
 
+## Metrics
+
+![metrics.png](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/08_AdvancedArchitecture/metrics.png?raw=true)
+
 ## Conclusions : 
 - It was quite fun to create a library, there are a lot of design choices you have to make and stick with it throughout. You get to learn how to write generic functions and how to export them.
 - ResNet18 model overfits, so we added data augmentation to fix that

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="assignment">Assignment:</h1>
+<ol>
+<li>Go through this repository:  <a href="https://github.com/kuangliu/pytorch-cifar">https://github.com/kuangliu/pytorch-cifar (Links to an external site.)</a></li>
+<li>Extract the ResNet18 model from this repository and add it to your API/repo.</li>
+<li>Use your data loader, model loading, train, and test code to train ResNet18 on Cifar10</li>
+<li>Your Target is 85% accuracy. No limit on the number of epochs. Use default ResNet18 code (so params are fixed).</li>
+<li>Once done finish S8-Assignment-Solution.</li>
+</ol>
+<h1 id="solution">Solution</h1>
+<p>Github-Notebook : <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/08_AdvancedArchitecture/ResNet18.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/08_AdvancedArchitecture/ResNet18.ipynb</a></p>
+<p>Colab-Notebook : <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/08_AdvancedArchitecture/ResNet18.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/08_AdvancedArchitecture/ResNet18.ipynb</a></p>
+<p>PySodium Library : <a href="https://github.com/satyajitghana/PySodium">https://github.com/satyajitghana/PySodium</a></p>
+<pre><code>Model : ResNet18
+Data Augmentation : RandomCrop, RandomHorizontalFlip
+Epochs : 15
+Scheduler : OneCycleLR
+Optimizer : SGD
+Train Accuracy (Best) : 95.63
+Test Accuracy (Best) : 90.84
+</code></pre>
+<h2 id="metrics">Metrics</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/08_AdvancedArchitecture/metrics.png?raw=true" alt="metrics.png"></p>
+<h2 id="conclusions-">Conclusions :</h2>
+<ul>
+<li>It was quite fun to create a library, there are a lot of design choices you have to make and stick with it throughout. You get to learn how to write generic functions and how to export them.</li>
+<li>ResNet18 model overfits, so we added data augmentation to fix that</li>
+<li>OneCycleLR helps achieve high accuracy within very less epochs</li>
+<li>The model still overfits, maybe add L2 Regularization ?</li>
+</ul>
+</div>
+</body>
+
+</html>
