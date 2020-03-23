@@ -1,0 +1,36 @@
+name: CIFAR10_MyNet
+save_dir: saved/
+seed: 1
+target_device: 0
+
+arch:
+    type: CIFAR10Model
+    args: {}
+
+augmentation:
+    type: CIFAR10Transforms
+    args: {}
+
+data_loader:
+    type: CIFAR10DataLoader
+    args:
+        batch_size: 64
+        data_dir: data/
+        nworkers: 4
+        shuffle: True
+
+loss: nll_loss
+
+lr_scheduler:
+    type: OneCycleLR
+    args:
+        max_lr: 0.01
+
+optimizer:
+    type: SGD
+    args:
+        lr: 0.001
+        momentum: 0.95
+
+training:
+    epochs: 10
