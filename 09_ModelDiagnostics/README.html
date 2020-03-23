@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="model-diagnostics">Model Diagnostics</h1>
+<h2 id="quiz-dnn">Quiz DNN</h2>
+<p>Github-Notebook : <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/QuizDNN.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/QuizDNN.ipynb</a></p>
+<p>Google-Colab : <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/QuizDNN.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/QuizDNN.ipynb</a></p>
+<h2 id="assignment">Assignment</h2>
+<ol>
+<li>Move your last code’s transformations to Albumentations. Apply ToTensor, HorizontalFlip, Normalize (at min) + More (for additional points)</li>
+<li>Please make sure that your test_transforms are simple and only using ToTensor and Normalize</li>
+<li>Implement GradCam function as a module.</li>
+<li>Your final code (notebook file) must use imported functions to implement transformations and GradCam functionality</li>
+<li>Target Accuracy is 87%</li>
+<li>Submit answers to S9-Assignment-Solution.</li>
+</ol>
+<p>Github-Notebook link : <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/ModelDiagnostics.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/ModelDiagnostics.ipynb</a></p>
+<p>Google-Colab link : <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/ModelDiagnostics.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/ModelDiagnostics.ipynb</a></p>
+<p>Grad-CAM module : <a href="https://github.com/satyajitghana/PySodium/tree/v0.0.2/sodium/gradcam">https://github.com/satyajitghana/PySodium/tree/v0.0.2/sodium/gradcam</a></p>
+<p>Albumentations code : <a href="https://github.com/satyajitghana/PySodium/blob/v0.0.2/sodium/data_loader/augmentation.py">https://github.com/satyajitghana/PySodium/blob/v0.0.2/sodium/data_loader/augmentation.py</a></p>
+<h2 id="model-stats">Model Stats</h2>
+<pre><code>Epochs: 20
+Max Train Accuracy: 97.01
+Max Test Accuracy: 92.21
+</code></pre>
+<h2 id="model-metrics">Model Metrics</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/metrics.png?raw=true" alt="enter image description here"></p>
+<h2 id="model-grad-cam">Model Grad-CAM</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/gradcam_1.png?raw=true" alt="enter image description here"></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/gradcam_2.png?raw=true" alt="enter image description here"></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/09_ModelDiagnostics/gradcam_3.png?raw=true" alt="enter image description here"></p>
+</div>
+</body>
+
+</html>
