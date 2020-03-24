@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="advanced-training">Advanced Training</h1>
+<p>Assignment:</p>
+<ol>
+<li>Pick your last code</li>
+<li>Make sure to Add CutOut to your code. It should come from your transformations (albumentations)</li>
+<li>Use this repo:  <a href="https://github.com/davidtvs/pytorch-lr-finder">https://github.com/davidtvs/pytorch-lr-finder (Links to an external site.)</a>
+<ol>
+<li>Move LR Finder code to your modules</li>
+<li>Implement LR Finder (for SGD, not for ADAM)</li>
+<li>Implement ReduceLROnPlatea:  <a href="https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.ReduceLROnPlateau">https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.ReduceLROnPlateau (Links to an external site.)</a></li>
+</ol>
+</li>
+<li>Find best LR to train your model</li>
+<li>Use SDG with Momentum</li>
+<li>Train for 50 Epochs.</li>
+<li>Show Training and Test Accuracy curves</li>
+<li>Target 88% Accuracy.</li>
+<li>Run GradCAM on the any 25 misclassified images. Make sure you mention what is the prediction and what was the ground truth label.</li>
+<li>Submit</li>
+</ol>
+<h1 id="solution">Solution</h1>
+<p>Github-Notebook : <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb</a></p>
+<p>Google-Colab: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb</a></p>
+<h2 id="model-stats">Model Stats</h2>
+<pre><code>Epochs: 50
+Max Train Accuracy: 98.27
+Max Test Accuracy: 92.03
+</code></pre>
+<h2 id="model-metrics">Model Metrics</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/metrics_1.png?raw=true" alt="enter image description here"></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/metrics_2.png?raw=true" alt="enter image description here"></p>
+<h2 id="grad-cam">Grad-CAM</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/gradcam.png?raw=true" alt="enter image description here"></p>
+<h2 id="misclassifications-grad-cam">Misclassifications Grad-CAM</h2>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/misclassified_gradcam.png?raw=true" alt="enter image description here"></p>
+</div>
+</body>
+
+</html>
