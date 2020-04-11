@@ -50,6 +50,11 @@ PySodium: [https://github.com/satyajitghana/PySodium](https://github.com/satyaji
 
 Triangle Pattern: [https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/CycleLR.ipynb](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/CycleLR.ipynb)
 
+### code for pattern
+![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/pattern_code.PNG?raw=true)
+
+![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/one_cycle_fig.png?raw=true)
+
 ## Model Stats
 
 ```
