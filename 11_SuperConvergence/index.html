@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="super-convergence">Super Convergence</h1>
+<h2 id="assignment">Assignment</h2>
+<ol>
+<li>Write a code that draws this curve (without the arrows). In submission, you’ll upload your drawn curve and code for that
+<ol>
+<li><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/11s11.png?raw=true" alt="enter image description here"></li>
+</ol>
+</li>
+<li>Write a code which
+<ol>
+<li>uses this new ResNet Architecture for Cifar10:
+<ol>
+<li>PrepLayer - Conv 3x3 s1, p1) &gt;&gt; BN &gt;&gt; RELU [64k]</li>
+<li>Layer1 -
+<ol>
+<li>X = Conv 3x3 (s1, p1) &gt;&gt; MaxPool2D &gt;&gt; BN &gt;&gt; RELU [128k]</li>
+<li>R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k]</li>
+<li>Add(X, R1)</li>
+</ol>
+</li>
+<li>Layer 2 -
+<ol>
+<li>Conv 3x3 [256k]</li>
+<li>MaxPooling2D</li>
+<li>BN</li>
+<li>ReLU</li>
+</ol>
+</li>
+<li>Layer 3 -
+<ol>
+<li>X = Conv 3x3 (s1, p1) &gt;&gt; MaxPool2D &gt;&gt; BN &gt;&gt; RELU [512k]</li>
+<li>R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]</li>
+<li>Add(X, R2)</li>
+</ol>
+</li>
+<li>MaxPooling with Kernel Size 4</li>
+<li>FC Layer</li>
+<li>SoftMax</li>
+</ol>
+</li>
+<li>Uses One Cycle Policy such that:
+<ol>
+<li>Total Epochs = 24</li>
+<li>Max at Epoch = 5</li>
+<li>LRMIN = FIND</li>
+<li>LRMAX = FIND</li>
+<li>NO Annihilation</li>
+</ol>
+</li>
+<li>Uses this transform -RandomCrop 32, 32 (after padding of 4) &gt;&gt; FlipLR &gt;&gt; Followed by CutOut(8, 8)</li>
+<li>Batch size = 512</li>
+<li>Target Accuracy: 90%.</li>
+<li>The lesser the modular your code is (i.e. more the code you have written in your Colab file), less marks you’d get.</li>
+</ol>
+</li>
+<li>Questions asked are:
+<ol>
+<li>Upload the code you used to draw your ZIGZAG or CYCLIC TRIANGLE plot.</li>
+<li>Upload your triangle Plot which was drawn with your code.</li>
+<li>Upload the link to your GitHub copy of Colab Code.</li>
+<li>Upload the github link for the model as described in A11.</li>
+<li>What is your test accuracy?</li>
+</ol>
+</li>
+</ol>
+<h2 id="solution">Solution</h2>
+<p>Github link: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb</a></p>
+<p>Colab link: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb</a></p>
+<p>PySodium: <a href="https://github.com/satyajitghana/PySodium">https://github.com/satyajitghana/PySodium</a></p>
+<p>Triangle Pattern: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/CycleLR.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/CycleLR.ipynb</a></p>
+<h2 id="model-stats">Model Stats</h2>
+<pre><code>Test Accuracy: 89.97
+Train Accuracy: 92.66
+Params: 6,573,120
+</code></pre>
+<h3 id="lr-finder">LR Finder</h3>
+<pre><code>[ 2020-04-11 17:52:58,135 - sodium.sodium.runner ] INFO: sorted lrs : [0.609391, 0.61039, 0.6083919999999999, 0.611389, 0.607393, 0.606394, 0.63037, 0.613387, 0.626374, 0.612388]
+[ 2020-04-11 17:52:58,137 - sodium.sodium.runner ] INFO: found the best lr : 0.609391
+</code></pre>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/lr_finder.png?raw=true" alt="enter image description here"></p>
+<pre><code>[ 2020-04-11 17:53:02,878 - sodium.sodium.runner ] INFO: using max_lr : 0.609391
+[ 2020-04-11 17:53:02,880 - sodium.sodium.runner ] INFO: using min_lr : 0.02437564
+[ 2020-04-11 17:53:02,880 - sodium.sodium.runner ] INFO: using initial_lr : 0.02437564
+</code></pre>
+<h3 id="learning-rate">Learning Rate</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/lr_metric.png?raw=true" alt="enter image description here"></p>
+<h3 id="model-accuracy-loss-curves">Model Accuracy-Loss Curves</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/model_stats.png?raw=true" alt="enter image description here"></p>
+</div>
+</body>
+
+</html>
