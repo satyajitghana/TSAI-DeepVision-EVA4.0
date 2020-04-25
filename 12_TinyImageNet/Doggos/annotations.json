@@ -1,0 +1,1456 @@
+{
+    "0_GettyImages-1143342151.jpg114222": {
+        "filename": "0_GettyImages-1143342151.jpg",
+        "size": 114222,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 545,
+                    "y": 5,
+                    "width": 521,
+                    "height": 476
+                },
+                "region_attributes": {
+                    "name": "not_defined",
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "1_JS205555318.jpg145133": {
+        "filename": "1_JS205555318.jpg",
+        "size": 145133,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 301,
+                    "y": 41,
+                    "width": 638,
+                    "height": 848
+                },
+                "region_attributes": {
+                    "name": "not_defined",
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "15-Training-Secrets-Dog-Trainers.jpg44952": {
+        "filename": "15-Training-Secrets-Dog-Trainers.jpg",
+        "size": 44952,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 222,
+                    "y": 111,
+                    "width": 164,
+                    "height": 265
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 379,
+                    "y": 109,
+                    "width": 128,
+                    "height": 260
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "16-week-male-pug-very-sad-reluctant.jpg85646": {
+        "filename": "16-week-male-pug-very-sad-reluctant.jpg",
+        "size": 85646,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 235,
+                    "y": 193,
+                    "width": 513,
+                    "height": 673
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "30e10adb6dd80fb6736b348e3b9b7baa.jpg120073": {
+        "filename": "30e10adb6dd80fb6736b348e3b9b7baa.jpg",
+        "size": 120073,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 69,
+                    "y": 68,
+                    "width": 619,
+                    "height": 902
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "115da55aeeed5347587188462db2a878.jpg29907": {
+        "filename": "115da55aeeed5347587188462db2a878.jpg",
+        "size": 29907,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 59,
+                    "y": 14,
+                    "width": 201,
+                    "height": 370
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "445831-dogs-dog-playing-soccer.jpg386010": {
+        "filename": "445831-dogs-dog-playing-soccer.jpg",
+        "size": 386010,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 646,
+                    "y": 282,
+                    "width": 767,
+                    "height": 472
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "ad-49721842.jpg292592": {
+        "filename": "ad-49721842.jpg",
+        "size": 292592,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 173,
+                    "y": 129,
+                    "width": 347,
+                    "height": 628
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "adorable-white-pomeranian-puppy.jpg60985": {
+        "filename": "adorable-white-pomeranian-puppy.jpg",
+        "size": 60985,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 318,
+                    "y": 158,
+                    "width": 359,
+                    "height": 386
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "basenji-the-dog-that-does-not-bark.jpg49760": {
+        "filename": "basenji-the-dog-that-does-not-bark.jpg",
+        "size": 49760,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 139,
+                    "y": 33,
+                    "width": 261,
+                    "height": 263
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "beagle2.jpg70093": {
+        "filename": "beagle2.jpg",
+        "size": 70093,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 61,
+                    "y": 31,
+                    "width": 389,
+                    "height": 406
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Bulldog_02.jpg352792": {
+        "filename": "Bulldog_02.jpg",
+        "size": 352792,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 283,
+                    "y": 9,
+                    "width": 407,
+                    "height": 454
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "cmSobWt.jpg153921": {
+        "filename": "cmSobWt.jpg",
+        "size": 153921,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 331,
+                    "y": 14,
+                    "width": 556,
+                    "height": 834
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Cute-Beagle-Dog.jpg50803": {
+        "filename": "Cute-Beagle-Dog.jpg",
+        "size": 50803,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 115,
+                    "y": 37,
+                    "width": 517,
+                    "height": 396
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "cute-dogs-222-01.jpg350513": {
+        "filename": "cute-dogs-222-01.jpg",
+        "size": 350513,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 530,
+                    "y": 101,
+                    "width": 418,
+                    "height": 931
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "cute-puppies-pomeranian-mixed-breed.jpg58303": {
+        "filename": "cute-puppies-pomeranian-mixed-breed.jpg",
+        "size": 58303,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 224,
+                    "y": 56,
+                    "width": 214,
+                    "height": 294
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "DogPlay1.jpg131014": {
+        "filename": "DogPlay1.jpg",
+        "size": 131014,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 118,
+                    "y": 157,
+                    "width": 417,
+                    "height": 417
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "dog-puppy-on-garden.jpg229955": {
+        "filename": "dog-puppy-on-garden.jpg",
+        "size": 229955,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 786,
+                    "y": 317,
+                    "width": 788,
+                    "height": 929
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "dogs-behavior.jpg51760": {
+        "filename": "dogs-behavior.jpg",
+        "size": 51760,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 152,
+                    "y": 159,
+                    "width": 290,
+                    "height": 562
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 531,
+                    "y": 77,
+                    "width": 412,
+                    "height": 736
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true,
+                        "blur": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "dogsofamazon.jpg690545": {
+        "filename": "dogsofamazon.jpg",
+        "size": 690545,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 780,
+                    "y": 559,
+                    "width": 808,
+                    "height": 1032
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "dogs-that-don-t-shed-maltese.jpg40750": {
+        "filename": "dogs-that-don-t-shed-maltese.jpg",
+        "size": 40750,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 74,
+                    "y": 59,
+                    "width": 351,
+                    "height": 353
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "e66bc92ee00f8bd4e5efe01708cbe956.jpg588895": {
+        "filename": "e66bc92ee00f8bd4e5efe01708cbe956.jpg",
+        "size": 588895,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 604,
+                    "y": 175,
+                    "width": 1052,
+                    "height": 1303
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "funny-corgi-cute-corgi.jpg65871": {
+        "filename": "funny-corgi-cute-corgi.jpg",
+        "size": 65871,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 114,
+                    "y": 59,
+                    "width": 266,
+                    "height": 388
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "GettyImages-861319804.jpg142500": {
+        "filename": "GettyImages-861319804.jpg",
+        "size": 142500,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 454,
+                    "y": 79,
+                    "width": 602,
+                    "height": 904
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Golden_Retriever_Dogs_Grass_Puppy_Two_Sitting.jpg334654": {
+        "filename": "Golden_Retriever_Dogs_Grass_Puppy_Two_Sitting.jpg",
+        "size": 334654,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 360,
+                    "y": 250,
+                    "width": 355,
+                    "height": 574
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 662,
+                    "y": 214,
+                    "width": 380,
+                    "height": 617
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Havanese-Dog-Breed-Adult.png1035809": {
+        "filename": "Havanese-Dog-Breed-Adult.png",
+        "size": 1035809,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 101,
+                    "y": 29,
+                    "width": 536,
+                    "height": 514
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "HTB1Pm.RaiDxK1RjSsphq6zHrpXa6.jpg332045": {
+        "filename": "HTB1Pm.RaiDxK1RjSsphq6zHrpXa6.jpg",
+        "size": 332045,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 127,
+                    "y": 107,
+                    "width": 521,
+                    "height": 602
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "image-dog1-min.jpg36776": {
+        "filename": "image-dog1-min.jpg",
+        "size": 36776,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 218,
+                    "y": 18,
+                    "width": 306,
+                    "height": 372
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "jarman-safed-dog-cute-puppy-image.jpg96165": {
+        "filename": "jarman-safed-dog-cute-puppy-image.jpg",
+        "size": 96165,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 459,
+                    "y": 177,
+                    "width": 614,
+                    "height": 560
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Maltese-dog.jpg39262": {
+        "filename": "Maltese-dog.jpg",
+        "size": 39262,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 97,
+                    "y": 51,
+                    "width": 305,
+                    "height": 405
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "mixed-breed-dogs-1560173340.jpg35888": {
+        "filename": "mixed-breed-dogs-1560173340.jpg",
+        "size": 35888,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 212,
+                    "y": 41,
+                    "width": 301,
+                    "height": 553
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "N1fiHxK.jpg42864": {
+        "filename": "N1fiHxK.jpg",
+        "size": 42864,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 189,
+                    "y": 34,
+                    "width": 728,
+                    "height": 716
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "original.jpg35181": {
+        "filename": "original.jpg",
+        "size": 35181,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 62,
+                    "y": 41,
+                    "width": 299,
+                    "height": 351
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "PET3.jpg34976": {
+        "filename": "PET3.jpg",
+        "size": 34976,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 74,
+                    "y": 77,
+                    "width": 307,
+                    "height": 495
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "pixel-dogsofinstagram.jpg221038": {
+        "filename": "pixel-dogsofinstagram.jpg",
+        "size": 221038,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 333,
+                    "y": 89,
+                    "width": 1541,
+                    "height": 1535
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "pomsky11.jpg97309": {
+        "filename": "pomsky11.jpg",
+        "size": 97309,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 119,
+                    "y": 47,
+                    "width": 509,
+                    "height": 700
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Pug-dog-1.jpg32919": {
+        "filename": "Pug-dog-1.jpg",
+        "size": 32919,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 130,
+                    "y": 43,
+                    "width": 349,
+                    "height": 436
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "rottweiler-puppy-dog.jpg105416": {
+        "filename": "rottweiler-puppy-dog.jpg",
+        "size": 105416,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 199,
+                    "y": 121,
+                    "width": 311,
+                    "height": 274
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "shutterstock_1065058367-760x506.jpg75364": {
+        "filename": "shutterstock_1065058367-760x506.jpg",
+        "size": 75364,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 229,
+                    "y": 45,
+                    "width": 258,
+                    "height": 451
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "siberian_husky_cute_puppies.jpg60833": {
+        "filename": "siberian_husky_cute_puppies.jpg",
+        "size": 60833,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 137,
+                    "y": 55,
+                    "width": 146,
+                    "height": 239
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Siberian-Husky_01.jpg411686": {
+        "filename": "Siberian-Husky_01.jpg",
+        "size": 411686,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 4,
+                    "y": 16,
+                    "width": 715,
+                    "height": 484
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "smalldogs.jpg290492": {
+        "filename": "smalldogs.jpg",
+        "size": 290492,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 208,
+                    "y": 63,
+                    "width": 852,
+                    "height": 1502
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "stray-dogs-nationalgeographic.jpg702330": {
+        "filename": "stray-dogs-nationalgeographic.jpg",
+        "size": 702330,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 687,
+                    "y": 416,
+                    "width": 748,
+                    "height": 860
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "trending-dog.jpg70761": {
+        "filename": "trending-dog.jpg",
+        "size": 70761,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 265,
+                    "y": 64,
+                    "width": 599,
+                    "height": 625
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "tumblr_mu9yfmflRc1sdz2oko1_1280.png333195": {
+        "filename": "tumblr_mu9yfmflRc1sdz2oko1_1280.png",
+        "size": 333195,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 57,
+                    "y": 69,
+                    "width": 320,
+                    "height": 268
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "tumblr_ne4fovAAgz1u0vhcbo2_1280.jpg107347": {
+        "filename": "tumblr_ne4fovAAgz1u0vhcbo2_1280.jpg",
+        "size": 107347,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 514,
+                    "y": 127,
+                    "width": 154,
+                    "height": 366
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "unnamed.jpg64309": {
+        "filename": "unnamed.jpg",
+        "size": 64309,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 245,
+                    "y": 101,
+                    "width": 178,
+                    "height": 260
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "unnamed.png422793": {
+        "filename": "unnamed.png",
+        "size": 422793,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 127,
+                    "y": 36,
+                    "width": 262,
+                    "height": 405
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "unnamed-2.jpg58379": {
+        "filename": "unnamed-2.jpg",
+        "size": 58379,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 101,
+                    "y": 117,
+                    "width": 193,
+                    "height": 335
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "yorkiesmalldogs.jpg50926": {
+        "filename": "yorkiesmalldogs.jpg",
+        "size": 50926,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 129,
+                    "y": 97,
+                    "width": 208,
+                    "height": 273
+                },
+                "region_attributes": {
+                    "type": "dog",
+                    "image_quality": {
+                        "good": true,
+                        "frontal": true,
+                        "good_illumination": true
+                    }
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    }
+}
