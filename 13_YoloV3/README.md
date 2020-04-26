@@ -28,8 +28,9 @@ Assignment:
 
 # YOLO V3 on OpenCV
 
-Colab Notebook: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-OpenCV.ipynb
-Github Link: https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-OpenCV.ipynb
+- Colab Notebook: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-OpenCV.ipynb
+
+- Github Link: https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-OpenCV.ipynb
 
 ### Doggo
 ![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/opencv-run/doggo.png?raw=true)
@@ -42,8 +43,9 @@ Github Link: https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master
 
 # Training YOLO V3 on a Custom Dataset
 
-Github Link: [https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-BugsBunny.ipynb](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-BugsBunny.ipynb)
-Colab Notebook: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-BugsBunny.ipynb
+- Github Link: [https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-BugsBunny.ipynb](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-BugsBunny.ipynb)
+
+- Colab Notebook: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/13_YoloV3/YoloV3-BugsBunny.ipynb
 
 # Running the custom model on a video
 
