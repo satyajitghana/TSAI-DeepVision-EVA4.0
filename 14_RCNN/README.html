@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="rcnn-and-depth-assignment">RCNN and Depth Assignment</h1>
+<p>You must have 100 background, 100x2 (including flip), and you randomly place the foreground on the background 20 times, you have in total 100x200x20 images.</p>
+<p>In total you MUST have:</p>
+<ol>
+<li>400k fg_bg images</li>
+<li>400k depth images</li>
+<li>400k mask images</li>
+<li>generated from:
+<ol>
+<li>100 backgrounds</li>
+<li>100 foregrounds, plus their flips</li>
+<li>20 random placement on each background.</li>
+</ol>
+</li>
+<li>Now add a readme file on GitHub for Project 15A:
+<ol>
+<li>Create this dataset and share a link to GDrive (publicly available to anyone) in this readme file.</li>
+<li>Add your dataset statistics:
+<ol>
+<li>Kinds of images (fg, bg, fg_bg, masks, depth)</li>
+<li>Total images of each kind</li>
+<li>The total size of the dataset</li>
+<li>Mean/STD values for your fg_bg, masks and depth images</li>
+</ol>
+</li>
+<li>Show your dataset the way I have shown above in this readme</li>
+<li>Explain how you created your dataset
+<ol>
+<li>how were fg created with transparency</li>
+<li>how were masks created for fgs</li>
+<li>how did you overlay the fg over bg and created 20 variants</li>
+<li>how did you create your depth images?</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Add the notebook file to your repo, one which you used to create this dataset</li>
+<li>Add the notebook file to your repo, one which you used to calculate statistics for this dataset</li>
+</ol>
+<p>Things to remember while creating this dataset:</p>
+<ol>
+<li>stick to square images to make your life easy.</li>
+<li>We would use these images in a network which would take an fg_bg image AND bg image, and predict your MASK and Depth image. So the input to the network is, say, 224x224xM and 224x224xN, and the output is 224x224xO and 224x224xP.</li>
+<li>pick the resolution of your choice between 150 and 250 for ALL the images</li>
+</ol>
+<h1 id="solution">Solution</h1>
+<h2 id="dataset-google-drive-link">Dataset Google Drive link</h2>
+<p><a href="https://drive.google.com/open?id=10MBvlf6pMB78o-bWNe7tVlqNaIP3DtKQ">https://drive.google.com/open?id=10MBvlf6pMB78o-bWNe7tVlqNaIP3DtKQ</a></p>
+<p>.<code>zip</code>, no compression algorithm was used, <code>ZIP_STORE</code> option was used</p>
+<h3 id="total-size">Total Size</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/images/dataset-size.png?raw=true" alt="enter image description here"></p>
+<h2 id="dataset-creation">Dataset Creation</h2>
+<p>Github Link: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_DenseDepth_DatasetCreation.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_DenseDepth_DatasetCreation.ipynb</a></p>
+<p><a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_02_DenseDepth_DatasetCreation.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_02_DenseDepth_DatasetCreation.ipynb</a></p>
+<p>Colab Link: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_DenseDepth_DatasetCreation.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_DenseDepth_DatasetCreation.ipynb</a></p>
+<p><a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_02_DenseDepth_DatasetCreation.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/01_02_DenseDepth_DatasetCreation.ipynb</a></p>
+<h2 id="depth-map-creation">Depth Map creation</h2>
+<p>Colab link: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/02_DepthModel_DepthMap.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/02_DepthModel_DepthMap.ipynb</a></p>
+<h2 id="mean-and-standard-deviation">Mean and Standard Deviation</h2>
+<p>Github Link: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/03_DepthModel_MeanStd.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/03_DepthModel_MeanStd.ipynb</a></p>
+<p>Colab Link: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/03_DepthModel_MeanStd.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/03_DepthModel_MeanStd.ipynb</a></p>
+<h3 id="dataset-stats">Dataset Stats:</h3>
+<ol>
+<li>BG Images</li>
+</ol>
+<ul>
+<li>Mean:<code>['0.573435604572296', '0.520844697952271', '0.457784473896027']</code></li>
+<li>Std: <code>['0.207058250904083', '0.208138316869736', '0.215291306376457']</code></li>
+</ul>
+<ol start="2">
+<li>FG_BG Images</li>
+</ol>
+<ul>
+<li>Mean: <code>['0.568499565124512', '0.512103974819183', '0.452332496643066']</code></li>
+<li>Std:  <code>['0.211068645119667', '0.211040720343590', '0.216081097722054']</code></li>
+</ul>
+<ol start="3">
+<li>FG_BG_MASK Images</li>
+</ol>
+<ul>
+<li>Mean: <code>['0.062296919524670', '0.062296919524670', '0.062296919524670']</code></li>
+<li>Std: <code>['0.227044790983200', '0.227044790983200', '0.227044790983200']</code></li>
+</ul>
+<ol start="4">
+<li>DEPTH_FG_BG</li>
+</ol>
+<ul>
+<li>Mean: <code>['0.302973538637161', '0.302973538637161', '0.302973538637161']</code></li>
+<li>Std: <code>['0.101284727454185', '0.101284727454185', '0.101284727454185']</code></li>
+</ul>
+<h2 id="dataset-visualization">Dataset Visualization</h2>
+<p>Github Link: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/04_DepthModel_DataViz.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/04_DepthModel_DataViz.ipynb</a></p>
+<p>Colab Link: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/04_DepthModel_DataViz.ipynb">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/04_DepthModel_DataViz.ipynb</a></p>
+<p>Note: To view them larger, <code>right click -&gt; Open image in new tab</code></p>
+<h3 id="bg-images">BG Images</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/images/bg.png?raw=true" alt="enter image description here"></p>
+<h3 id="fg-images">FG Images</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/images/fg.png?raw=true" alt="enter image description here"></p>
+<h3 id="fg_bg-images">FG_BG Images</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/images/fg_bg.png?raw=true" alt="enter image description here"></p>
+<h3 id="fg_bg_mask-images">FG_BG_MASK Images</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/images/fg_bg_mask.png?raw=true" alt="enter image description here"></p>
+<h3 id="depth_fg_bg-images">Depth_FG_BG Images</h3>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/14_RCNN/images/depth_fg_bg.png?raw=true" alt="enter image description here"></p>
+<h1 id="how-the-dataset-was-created">How the dataset was created</h1>
+<p>Since we need to apply the foreground images on background images and also creating a mask of the fg images, i used transparent background png images, a image crawler was run on Bing to gather people, animals, dogs, cats, bears, goats, deer, cow and human images for the fg, mall interior, interior and indoor images were searched and crawled.</p>
+<p>Now we converted the fg png images to mask by filling the transparent part with white and rest image with black using this code,</p>
+<pre class=" language-python"><code class="prism  language-python">img  <span class="token operator">=</span>  cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span>fg_images<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>  cv2<span class="token punctuation">.</span>IMREAD_UNCHANGED<span class="token punctuation">)</span>
+ret<span class="token punctuation">,</span>  mask  <span class="token operator">=</span>  cv2<span class="token punctuation">.</span>threshold<span class="token punctuation">(</span>im<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span>  <span class="token punctuation">:</span><span class="token punctuation">,</span>  <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span>  <span class="token number">0</span><span class="token punctuation">,</span>  <span class="token number">255</span><span class="token punctuation">,</span>  cv2<span class="token punctuation">.</span>THRESH_BINARY<span class="token punctuation">)</span>
+</code></pre>
+<p>For the BG Images, they were resized and cropped to <code>200x200</code>  using this,</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span>  <span class="token function">crop_center</span><span class="token punctuation">(</span>pil_img<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	img_width<span class="token punctuation">,</span>  img_height  <span class="token operator">=</span>  pil_img<span class="token punctuation">.</span>size
+	crop_dim  <span class="token operator">=</span>  img_width  <span class="token keyword">if</span>  img_width  <span class="token operator">&lt;</span>  img_height  <span class="token keyword">else</span>  img_height
+	crop_width  <span class="token operator">=</span>  crop_height  <span class="token operator">=</span>  crop_dim
+
+	<span class="token keyword">return</span>  pil_img<span class="token punctuation">.</span>crop<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">(</span>img_width  <span class="token operator">-</span>  crop_width<span class="token punctuation">)</span>  <span class="token operator">//</span>  <span class="token number">2</span><span class="token punctuation">,</span>  <span class="token punctuation">(</span>img_height  <span class="token operator">-</span>  crop_height<span class="token punctuation">)</span>  <span class="token operator">//</span>  <span class="token number">2</span><span class="token punctuation">,</span>  <span class="token punctuation">(</span>img_width  <span class="token operator">+</span>  crop_width<span class="token punctuation">)</span>  <span class="token operator">//</span>  <span class="token number">2</span><span class="token punctuation">,</span>  <span class="token punctuation">(</span>img_height  <span class="token operator">+</span>  crop_height<span class="token punctuation">)</span>  <span class="token operator">//</span>  <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Once we’ve process this, we’ll have <code>fg (100)</code>, <code>bg (100)</code>, <code>fg_mask (100)</code>, now we need to create the fg_bg images</p>
+<p>Now to create the fg_bg images and also the fg_bg_mask images, we will place the fg images on top of bg images at random positions, 10 times, and do this with flipped fg images, in total we will have<br>
+<code>fg (100) x bg (100) x flip (2) x place_random (10) = fg_bg (400,000) + fg_bg_mask (400, 000)</code></p>
+<p>Code to do this,</p>
+<pre class=" language-python"><code class="prism  language-python">idx <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">for</span> bidx<span class="token punctuation">,</span> bg_image <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>tqdm<span class="token punctuation">(</span>bgc_images<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>bidx <span class="token operator">&lt;</span> last_idx<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">continue</span>
+
+	Path<span class="token punctuation">(</span>f <span class="token string">'depth_dataset_cleaned/labels/'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>mkdir<span class="token punctuation">(</span>parents <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> exist_ok <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span>
+	label_info <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span>f <span class="token string">"depth_dataset_cleaned/labels/bg_{bidx:03d}_label_info.txt"</span><span class="token punctuation">,</span> <span class="token string">"w+"</span><span class="token punctuation">)</span>
+
+	idx <span class="token operator">=</span> <span class="token number">4000</span> <span class="token operator">*</span> bidx
+
+	<span class="token keyword">print</span><span class="token punctuation">(</span>f <span class="token string">'Processing BG {bidx}'</span><span class="token punctuation">)</span>
+	Path<span class="token punctuation">(</span>f <span class="token string">'depth_dataset_cleaned/fg_bg/bg_{bidx:03d}'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>mkdir<span class="token punctuation">(</span>parents <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> exist_ok <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span>
+	Path<span class="token punctuation">(</span>f <span class="token string">'depth_dataset_cleaned/fg_bg_mask/bg_{bidx:03d}'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>mkdir<span class="token punctuation">(</span>parents <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> exist_ok <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span>
+
+	<span class="token keyword">for</span> fidx<span class="token punctuation">,</span> fg_image <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>tqdm<span class="token punctuation">(</span>fgc_images<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token comment">#do the add fg to bg 20 times</span>
+	    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token comment">#do this twice, one with flip once without</span>
+	    <span class="token keyword">for</span> should_flip <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token boolean">True</span><span class="token punctuation">,</span> <span class="token boolean">False</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+	    background <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>bg_image<span class="token punctuation">)</span>
+	foreground <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>fg_image<span class="token punctuation">)</span>
+	fg_mask <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>fgc_mask_images<span class="token punctuation">[</span>fidx<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+	<span class="token keyword">if</span> should_flip<span class="token punctuation">:</span>
+	    foreground <span class="token operator">=</span> foreground<span class="token punctuation">.</span>transpose<span class="token punctuation">(</span>PIL<span class="token punctuation">.</span>Image<span class="token punctuation">.</span>FLIP_LEFT_RIGHT<span class="token punctuation">)</span>
+	fg_mask <span class="token operator">=</span> fg_mask<span class="token punctuation">.</span>transpose<span class="token punctuation">(</span>PIL<span class="token punctuation">.</span>Image<span class="token punctuation">.</span>FLIP_LEFT_RIGHT<span class="token punctuation">)</span>
+
+	b_width<span class="token punctuation">,</span> b_height <span class="token operator">=</span> background<span class="token punctuation">.</span>size
+	f_width<span class="token punctuation">,</span> f_height <span class="token operator">=</span> foreground<span class="token punctuation">.</span>size
+	max_y <span class="token operator">=</span> b_height <span class="token operator">-</span> f_height
+	max_x <span class="token operator">=</span> b_width <span class="token operator">-</span> f_width
+	pos_x <span class="token operator">=</span> np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span>low <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> high <span class="token operator">=</span> max_x<span class="token punctuation">,</span> size <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+	pos_y <span class="token operator">=</span> np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span>low <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> high <span class="token operator">=</span> max_y<span class="token punctuation">,</span> size <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+	background<span class="token punctuation">.</span>paste<span class="token punctuation">(</span>foreground<span class="token punctuation">,</span> <span class="token punctuation">(</span>pos_x<span class="token punctuation">,</span> pos_y<span class="token punctuation">)</span><span class="token punctuation">,</span> foreground<span class="token punctuation">)</span>
+
+	mask_bg <span class="token operator">=</span> Image<span class="token punctuation">.</span>new<span class="token punctuation">(</span><span class="token string">'L'</span><span class="token punctuation">,</span> background<span class="token punctuation">.</span>size<span class="token punctuation">)</span>
+
+	fg_mask <span class="token operator">=</span> fg_mask<span class="token punctuation">.</span>convert<span class="token punctuation">(</span><span class="token string">'L'</span><span class="token punctuation">)</span>
+	mask_bg<span class="token punctuation">.</span>paste<span class="token punctuation">(</span>fg_mask<span class="token punctuation">,</span> <span class="token punctuation">(</span>pos_x<span class="token punctuation">,</span> pos_y<span class="token punctuation">)</span><span class="token punctuation">,</span> fg_mask<span class="token punctuation">)</span>
+
+	background<span class="token punctuation">.</span>save<span class="token punctuation">(</span>f <span class="token string">'depth_dataset_cleaned/fg_bg/bg_{bidx:03d}/fg_{fidx:03d}_bg_{bidx:03d}_{idx:06d}.jpg'</span><span class="token punctuation">,</span> optimize <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> quality <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">)</span>
+	mask_bg<span class="token punctuation">.</span>save<span class="token punctuation">(</span>f <span class="token string">'depth_dataset_cleaned/fg_bg_mask/bg_{bidx:03d}/fg_{fidx:03d}_bg_{bidx:03d}_mask_{idx:06d}.jpg'</span><span class="token punctuation">,</span> optimize <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> quality <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">)</span>
+	label_info<span class="token punctuation">.</span>write<span class="token punctuation">(</span>f <span class="token string">'fg_bg/bg_{bidx:03d}/fg_{fidx:03d}_bg_{bidx:03d}_{idx:06d}.jpg\tfg_bg_mask/bg_{bidx:03d}/fg_{fidx:03d}_bg_{bidx:03d}_mask_{idx:06d}.jpg\t{pos_x}\t{pos_y}\n'</span><span class="token punctuation">)</span>
+
+	idx <span class="token operator">=</span> idx <span class="token operator">+</span> <span class="token number">1</span>
+
+	label_info<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+	last_idx <span class="token operator">=</span> bidx
+</code></pre>
+<p>For efficiency i wrote the generated file to .zip file, why was this done though ?</p>
+<p><a href="https://medium.com/@satyajitghana7/working-with-huge-datasets-800k-files-in-google-colab-and-google-drive-bcb175c79477">https://medium.com/@satyajitghana7/working-with-huge-datasets-800k-files-in-google-colab-and-google-drive-bcb175c79477</a></p>
+<p>Once this was done, we need to create the depth map, by running the DenseDepth Model on our fg_bg images, this was done by taking batches of 1000, since otherwise we had memory bottleneck issues, moreover i had to manually use the python’s garbage collector to make sure we free the memory after every batch</p>
+<pre class=" language-python"><code class="prism  language-python"><span class="token keyword">def</span> <span class="token function">run_processing</span><span class="token punctuation">(</span>fr <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> to <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>f <span class="token string">'running process from {fr}(inclusive) to {to}(exclusive) BGs'</span><span class="token punctuation">)</span>
+	<span class="token keyword">for</span> bdx<span class="token punctuation">,</span> b_files <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>tqdm<span class="token punctuation">(</span>grouped_files<span class="token punctuation">[</span>fr<span class="token punctuation">:</span> to<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+	    <span class="token keyword">print</span><span class="token punctuation">(</span>f <span class="token string">'Processing for BG {fr + bdx}'</span><span class="token punctuation">)</span>
+
+	out_zip <span class="token operator">=</span> ZipFile<span class="token punctuation">(</span><span class="token string">'depth_fg_bg.zip'</span><span class="token punctuation">,</span> mode <span class="token operator">=</span> <span class="token string">'a'</span><span class="token punctuation">,</span> compression <span class="token operator">=</span> zipfile<span class="token punctuation">.</span>ZIP_STORED<span class="token punctuation">)</span>
+
+	batch_size <span class="token operator">=</span> <span class="token number">1000</span>
+	batch_idx <span class="token operator">=</span> <span class="token number">0</span>
+	<span class="token keyword">for</span> batch <span class="token keyword">in</span> make_batch<span class="token punctuation">(</span>b_files<span class="token punctuation">,</span> batch_size<span class="token punctuation">)</span><span class="token punctuation">:</span>
+	    images <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>f <span class="token string">'Processing Batch {batch_idx}'</span><span class="token punctuation">)</span>
+	<span class="token keyword">for</span> idx<span class="token punctuation">,</span> b_file <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>tqdm<span class="token punctuation">(</span>batch<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	    imgdata <span class="token operator">=</span> fg_bg_zip<span class="token punctuation">.</span>read<span class="token punctuation">(</span>b_file<span class="token punctuation">)</span>
+	img <span class="token operator">=</span> Image<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>io<span class="token punctuation">.</span>BytesIO<span class="token punctuation">(</span>imgdata<span class="token punctuation">)</span><span class="token punctuation">)</span>
+	img <span class="token operator">=</span> img<span class="token punctuation">.</span>resize<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">640</span><span class="token punctuation">,</span> <span class="token number">480</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	x <span class="token operator">=</span> np<span class="token punctuation">.</span>clip<span class="token punctuation">(</span>np<span class="token punctuation">.</span>asarray<span class="token punctuation">(</span>img<span class="token punctuation">,</span> dtype <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">255</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+	images<span class="token punctuation">.</span>append<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+
+	images <span class="token operator">=</span> np<span class="token punctuation">.</span>stack<span class="token punctuation">(</span>images<span class="token punctuation">,</span> axis <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">)</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>f <span class="token string">'Running prediction for BG {fr + bdx} Batch {batch_idx}'</span><span class="token punctuation">)</span>
+	t1 <span class="token operator">=</span> time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+	output <span class="token operator">=</span> predict<span class="token punctuation">(</span>model<span class="token punctuation">,</span> images<span class="token punctuation">)</span>
+	outputs <span class="token operator">=</span> output<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+	t2 <span class="token operator">=</span> time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>f <span class="token string">'Prediction done took {(t2-t1):.5f} s'</span><span class="token punctuation">)</span>
+
+	<span class="token comment"># resize the outputs to `200x200` and extract channel 0</span>
+	outputs <span class="token operator">=</span> <span class="token punctuation">[</span>resize<span class="token punctuation">(</span>output<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">:</span> <span class="token punctuation">,</span><span class="token punctuation">:</span> <span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span>
+	    <span class="token keyword">for</span> output <span class="token keyword">in</span> outputs
+	<span class="token punctuation">]</span>
+
+	<span class="token comment"># create a temporary directory to save the png outputs of current bg directory</span>
+	Path<span class="token punctuation">(</span>f <span class="token string">'temp_b'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>mkdir<span class="token punctuation">(</span>parents <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> exist_ok <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span>
+
+	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'Saving to Zip File'</span><span class="token punctuation">)</span><span class="token comment"># for every output, save the output by appending mask to it</span>
+	<span class="token keyword">for</span> odx<span class="token punctuation">,</span> output <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>tqdm<span class="token punctuation">(</span>outputs<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	    _<span class="token punctuation">,</span> parent_f<span class="token punctuation">,</span> f_name <span class="token operator">=</span> b_files<span class="token punctuation">[</span>batch_idx <span class="token operator">*</span> batch_size <span class="token operator">+</span> odx<span class="token punctuation">]</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span>os<span class="token punctuation">.</span>sep<span class="token punctuation">)</span>
+	f_name <span class="token operator">=</span> f_name<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+	img <span class="token operator">=</span> Image<span class="token punctuation">.</span>fromarray<span class="token punctuation">(</span>output <span class="token operator">*</span> <span class="token number">255</span><span class="token punctuation">)</span>
+	img <span class="token operator">=</span> img<span class="token punctuation">.</span>convert<span class="token punctuation">(</span><span class="token string">'L'</span><span class="token punctuation">)</span>
+	img<span class="token punctuation">.</span>save<span class="token punctuation">(</span>f <span class="token string">'temp_b/temp.png'</span><span class="token punctuation">)</span>
+
+	out_zip<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token string">'temp_b/temp.png'</span><span class="token punctuation">,</span> f <span class="token string">'mask_fg_bg/{parent_f}/mask_{f_name}.png'</span><span class="token punctuation">)</span>
+
+	<span class="token comment"># cleanup files</span>
+	<span class="token keyword">del</span> output<span class="token punctuation">,</span> outputs<span class="token punctuation">,</span> images
+
+	<span class="token comment"># garbage collect</span>
+	gc<span class="token punctuation">.</span>collect<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	batch_idx <span class="token operator">=</span> batch_idx <span class="token operator">+</span> <span class="token number">1</span>
+
+	out_zip<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+<hr>
+<p>dataset was made with 💖 by shadowleaf 😛</p>
+</div>
+</body>
+
+</html>
