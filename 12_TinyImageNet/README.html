@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="tinyimagenet-and-annotations-assignment">TinyImageNet and Annotations Assignment</h1>
+<ol>
+<li>Assignment A:
+<ol>
+<li>Download this  <a href="http://cs231n.stanford.edu/tiny-imagenet-200.zip">TINY IMAGENET (Links to an external site.)</a>  dataset.</li>
+<li>Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.</li>
+<li>Submit Results. Of course, you are using your own package for everything. You can look at  <a href="https://github.com/sonugiri1043/Train_ResNet_On_Tiny_ImageNet/blob/master/Train_ResNet_On_Tiny_ImageNet.ipynb">this (Links to an external site.)</a>  for reference.</li>
+</ol>
+</li>
+<li>Assignment B:
+<ol>
+<li>Download 50 images of dogs.</li>
+<li>Use  <a href="http://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html">this (Links to an external site.)</a>  to annotate bounding boxes around the dogs.</li>
+<li>Download JSON file.</li>
+<li>Describe the contents of this JSON file in FULL details (you don’t need to describe all 10 instances, anyone would work).</li>
+<li>Refer to this  <a href="https://towardsdatascience.com/machine-learning-algorithms-part-9-k-means-example-in-python-f2ad05ed5203">tutorial (Links to an external site.)</a>. Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.</li>
+</ol>
+</li>
+</ol>
+<p>Questions in S12-Assignment-Solution:</p>
+<ol>
+<li>
+<p>What is your final accuracy?</p>
+</li>
+<li>
+<p>Share the Github link to your ResNet-Tiny-ImageNet code. All the logs must be visible.</p>
+</li>
+<li>
+<p>Describe the contents of the JSON file in detail. You need to explain each element in detail.</p>
+</li>
+<li>
+<p>Share the link to your Github file where you have calculated the best K clusters for your 50 dog dataset.</p>
+</li>
+<li>
+<p>Share the link to your 50 Dog Images Folder on GitHub</p>
+</li>
+<li>
+<p>Share the link to your JSON file on GitHub</p>
+</li>
+</ol>
+<h1 id="solution">Solution</h1>
+<h2 id="tinyimagenet-model">TinyImageNet Model</h2>
+<p>Github Link: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/TinyImageNet.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/TinyImageNet.ipynb</a></p>
+<p>Colab Link: <a href="https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/TinyImageNet.ipynb#scrollTo=CDyM79bXAaMl">https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/TinyImageNet.ipynb#scrollTo=CDyM79bXAaMl</a></p>
+<pre><code>Final Accuracy
+Test: 53.66
+Train: 63.22
+</code></pre>
+<h2 id="doggo-dataset">Doggo Dataset</h2>
+<p>Images: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/tree/master/12_TinyImageNet/Doggos/images">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/tree/master/12_TinyImageNet/Doggos/images</a></p>
+<p>(includes the explanation of json file)<br>
+KMeans run on Doggo: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/Doggos/Doggo_KMeans.ipynb">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/Doggos/Doggo_KMeans.ipynb</a></p>
+<p>Donno Annotations: <a href="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/Doggos/annotations.json">https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/Doggos/annotations.json</a></p>
+<h2 id="visualization">Visualization</h2>
+<p><strong>Annotation</strong></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/Doggos/annotated.png?raw=true" alt="enter image description here"></p>
+<p><strong>KMeans</strong></p>
+<p><img src="https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/12_TinyImageNet/Doggos/kmeans.png?raw=true" alt="enter image description here"></p>
+</div>
+</body>
+
+</html>
