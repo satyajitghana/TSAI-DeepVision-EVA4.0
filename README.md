@@ -1,5 +1,13 @@
-# TSAI-DeepVision-EVA4.0
+
+<div align="center">
+<img src="head.png" >
+</div>
+
+<h1 align="center">EVA 4.0 (Extensive Vision AI)</h1>
+
 The contains the solutions to the assignments given in The School of AI - Extensive Vision AI 4.0
+
+---
 
 1. [Python Basics](01_PythonBasics/README.md)
 
