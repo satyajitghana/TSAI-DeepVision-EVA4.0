@@ -5,9 +5,9 @@
 
 <h1 align="center">EVA 4.0 (Extensive Vision AI)</h1>
 
-The contains the solutions to the assignments given in The School of AI - Extensive Vision AI 4.0
+This contains the solutions to the assignments given in The School of AI - Extensive Vision AI 4.0
 
-Website: https://satyajitghana.github.io/TSAI-DeepVision-EVA4.0/
+Website: [https://satyajitghana.github.io/TSAI-DeepVision-EVA4.0/](https://satyajitghana.github.io/TSAI-DeepVision-EVA4.0/)
 
 ---
 
