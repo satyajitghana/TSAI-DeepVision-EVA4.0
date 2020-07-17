@@ -11,7 +11,7 @@ Website: [https://satyajitghana.github.io/TSAI-DeepVision-EVA4.0/](https://satya
 
 ---
 
-1. [Python Basics](01_PythonBasics/README.md)
+1. [Python Basics](01_PythonBasics/Assignment.html)
 
     This describes the very basics of Python, i would recommend binge watching Raymond Hettinger's YouTube Videos, as much as you can, also learn list comprehension, slicing, partial, functools, functional programming, classes, MRO, decorators, lambdas, python 3 typing
 
