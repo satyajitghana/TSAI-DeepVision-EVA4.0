@@ -16,6 +16,8 @@ Website: [https://satyajitghana.github.io/TSAI-DeepVision-EVA4.0/](https://satya
     This describes the very basics of Python, i would recommend binge watching Raymond Hettinger's YouTube Videos, as much as you can, also learn list comprehension, slicing, partial, functools, functional programming, classes, MRO, decorators, lambdas, python 3 typing
     
     Also here i learnt the basics of how a Neural Network learns, how the different channels are formed, what are kernels, how does the DNN make sense of the input it gets, and more !
+    
+    Have you ever wondered, like why do we only use 3x3 kernels ? i had always wondered, why not 5x5 ? 7x7 ? in this session i learnt why, and how does even the kernel size matter ? why is it only odd numbers ? and why only squares ? and why is 3x3 kernel used twice same as a 5x5 kernel, what is receptive field ?
 
 2. [Neural Architecture](02_NeuralArchitecture/README.md)
 
