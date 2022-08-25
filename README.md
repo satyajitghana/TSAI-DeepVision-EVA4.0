@@ -84,5 +84,9 @@ This contains the solutions to the assignments given in The School of AI - Exten
 
     I'm sure you'll be impressed by this one ;)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=satyajitghana/TSAI-DeepVision-EVA4.0&type=Date)](https://star-history.com/#satyajitghana/TSAI-DeepVision-EVA4.0&Date)
+
 ---
 <h3 align="center">Made with 💘 by shadowleaf</h3>
